@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\decic\\Documents\\GitHub\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj": {}
+    "C:\\Users\\Fabio\\Documents\\Repository corso CSharp\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\decic\\Documents\\GitHub\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj": {
+    "C:\\Users\\Fabio\\Documents\\Repository corso CSharp\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\decic\\Documents\\GitHub\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj",
+        "projectUniqueName": "C:\\Users\\Fabio\\Documents\\Repository corso CSharp\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj",
         "projectName": "EsercizioGruppo",
-        "projectPath": "C:\\Users\\decic\\Documents\\GitHub\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj",
-        "packagesPath": "C:\\Users\\decic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\decic\\Documents\\GitHub\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\obj\\",
+        "projectPath": "C:\\Users\\Fabio\\Documents\\Repository corso CSharp\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\EsercizioGruppo.csproj",
+        "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fabio\\Documents\\Repository corso CSharp\\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\\EsercizioGruppo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\decic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Fabio\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",

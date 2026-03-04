@@ -1,0 +1,15 @@
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\bin\Debug\net10.0\EsercizioGruppo.exe
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\bin\Debug\net10.0\EsercizioGruppo.deps.json
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\bin\Debug\net10.0\EsercizioGruppo.runtimeconfig.json
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\bin\Debug\net10.0\EsercizioGruppo.dll
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\bin\Debug\net10.0\EsercizioGruppo.pdb
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.AssemblyInfoInputs.cache
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.AssemblyInfo.cs
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.sourcelink.json
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.dll
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\refint\EsercizioGruppo.dll
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.pdb
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\EsercizioGruppo.genruntimeconfig.cache
+C:\Users\Fabio\Documents\Repository corso CSharp\Gestionale_OfficeFlw_Fabrizi-Fabio-Marco\EsercizioGruppo\obj\Debug\net10.0\ref\EsercizioGruppo.dll
