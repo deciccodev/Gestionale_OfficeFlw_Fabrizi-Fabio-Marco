@@ -12,7 +12,10 @@ public class Ordine : Operazione
         {
             if(value > 0)
                 _clienteId = value;
+            else
+                Console.WriteLine("Cliente ID non valido!");
         }
+        
     }
 
     public string Descrizione
@@ -24,6 +27,8 @@ public class Ordine : Operazione
             {
                 _descrizione = value;
             }
+            else
+                Console.WriteLine("Descrizione non valida!");
         }
     }
 
@@ -34,6 +39,8 @@ public class Ordine : Operazione
         {
             if(value > 0)
                 _quantita = value;
+            else
+                Console.WriteLine("Quantità non valida!");
         }
     }
 
@@ -44,8 +51,8 @@ public class Ordine : Operazione
         {
             if(value > 0)
                 _prezzoUnitario = value;
+            else
+                Console.WriteLine("Prezzo Unitario non valido!");
         }
     }
-
-    
 }
