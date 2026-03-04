@@ -3,7 +3,8 @@ public class Ordine : Operazione
     private int clienteId;
     private string descrizione;
     private int quantita;
-    private int prezzoUnitario;
+    private decimal prezzoUnitario;
+    private Stato statoCorrente = Stato.Aperto;
 
     public int ClienteId
     {
@@ -44,7 +45,7 @@ public class Ordine : Operazione
         }
     }
 
-    public int PrezzoUnitario
+    public decimal PrezzoUnitario
     {
         get { return prezzoUnitario; }
         set
@@ -56,9 +57,42 @@ public class Ordine : Operazione
         }
     }
 
+    public Stato StatoCorrente
+    {
+        get => statoCorrente;
+        private set
+        {
+            statoCorrente = value;
+        }
+    }
+
     public override double CalcolaTotale()
     {
-        return quantita * prezzoUnitario;
+        return (double)(quantita * prezzoUnitario);
+    }
+
+    public void PagaOrdine()
+    {
+        if (StatoCorrente != Stato.Aperto)
+        {
+            Console.WriteLine($"Impossibile pagare ordine in questo stato: {StatoCorrente}");
+            return;
+        }
+
+        Console.WriteLine("Ordine pagato con successo!");
+        StatoCorrente = Stato.Pagato;
+    }
+
+    public void AnnullaOrdine()
+    {
+        if (StatoCorrente == Stato.Chiuso)
+        {
+            Console.WriteLine("Un ordine chiuso non può essere annullato.");
+            return;
+        }
+
+        Console.WriteLine("Ordine annullato con successo!");
+        StatoCorrente = Stato.Annullato;
     }
 
     public override string ToCsv()
