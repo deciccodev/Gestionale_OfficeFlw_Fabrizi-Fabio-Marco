@@ -51,4 +51,20 @@ public class ClientePrivato : Anagrafica
             }
         }
     }
+
+    public static ClientePrivato InserisciPrivato(List<Anagrafica> clienti)
+    {
+        ClientePrivato cliente = new ClientePrivato();
+        Console.WriteLine($"\nInserimento cliente privato");
+        cliente.Id = clienti.Any() ? clienti.Last().Id + 1 : 1;
+        Console.WriteLine($"Nome: ");
+        cliente.Nome = Console.ReadLine();
+        Console.WriteLine($"Cognome: ");
+        cliente.Cognome = Console.ReadLine();
+        Console.WriteLine($"Codice Fiscale: ");
+        cliente.CodiceFiscale = Console.ReadLine();
+        Console.WriteLine($"Email: ");
+        cliente.Email = Console.ReadLine();
+        return cliente;
+    }
 }
