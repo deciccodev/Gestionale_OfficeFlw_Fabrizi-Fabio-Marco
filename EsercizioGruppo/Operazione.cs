@@ -50,4 +50,6 @@ public abstract class Operazione
     }
 
     public abstract double CalcolaTotale();
+
+    public abstract string ToCsv();
 }
