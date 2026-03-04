@@ -1,4 +1,4 @@
-abstract class Operazione
+public abstract class Operazione
 {
     private int id;
     private int clienteId;
