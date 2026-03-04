@@ -51,4 +51,20 @@ public class ClienteAzienda : Anagrafica
             }
         }
     }
+
+    public static ClienteAzienda InserisciAzienda(List<Anagrafica> clienti)
+    {
+        ClienteAzienda azienda = new ClienteAzienda();
+        Console.WriteLine($"\nInserimento cliente azienda");
+        azienda.Id = clienti.Any() ? clienti.Last().Id + 1 : 1;
+        Console.WriteLine($"Ragione Sociale: ");
+        azienda.RagioneSociale = Console.ReadLine();
+        Console.WriteLine($"Partita Iva: ");
+        azienda.PartitaIva = Console.ReadLine();
+        Console.WriteLine($"Referente: ");
+        azienda.Referente = Console.ReadLine();
+        Console.WriteLine($"Email: ");
+        azienda.Email = Console.ReadLine();
+        return azienda;
+    }
 }
