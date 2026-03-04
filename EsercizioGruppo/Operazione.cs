@@ -1,4 +1,4 @@
-abstract class Operazione
+public abstract class Operazione
 {
     private int id;
     private int clienteId;
@@ -50,4 +50,6 @@ abstract class Operazione
     }
 
     public abstract double CalcolaTotale();
+
+    public abstract string ToCsv();
 }
