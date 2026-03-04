@@ -3,6 +3,7 @@ public class TicketAssistenza : Operazione
     private string? priorita;
     private int oreLavoro;
     private double costoOrario;
+    private Stato stato = Stato.Aperto;
 
     public string? Priorita
     {
@@ -49,6 +50,39 @@ public class TicketAssistenza : Operazione
         }
     }
 
+    public Stato Stato
+    {
+        get
+        {
+            return stato;
+        }
+        set
+        {
+            if(value != Stato.Pagato)
+                stato = value;
+            else
+                Console.WriteLine("Stato non valido.");
+        }
+    }
+
+    public void Apri()
+    {
+        stato = Stato.Aperto;
+        Console.WriteLine("Ticket aperto.");
+    }
+
+    public void Chiudi()
+    {
+        stato = Stato.Chiuso;
+        Console.WriteLine("Ticket chiuso.");
+    }
+
+    public void Annulla()
+    {
+        stato = Stato.Annullato;
+        Console.WriteLine("Ticket annullato.");
+    }
+
     public override double CalcolaTotale()
     {
         if(priorita == "alta")
@@ -58,6 +92,6 @@ public class TicketAssistenza : Operazione
 
     public override string ToCsv()
     {
-        return "";
+        return $"{Id};{ClienteId};{Data};{priorita};{oreLavoro};{CalcolaTotale()};{stato}";
     }
 }
