@@ -60,4 +60,9 @@ public class Ordine : Operazione
     {
         return quantita * prezzoUnitario;
     }
+
+    public override string ToCsv()
+    {
+        return "";
+    }
 }
