@@ -97,6 +97,6 @@ public class Ordine : Operazione
 
     public override string ToCsv()
     {
-        return "";
+        return $"{Id};Ordine;{ClienteId};{Data:dd/MM/yyyy};{Descrizione};{Quantita};{PrezzoUnitario};{CalcolaTotale()};{StatoCorrente}";
     }
 }
